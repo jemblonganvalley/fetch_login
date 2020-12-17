@@ -20,6 +20,28 @@ const Register = () => {
     }
   }, [inputData]);
 
+  const handleRegister = () => {
+    fetch("http://localhost:5000/register", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email: inputData.email,
+        password: inputData.password,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.accessToken) {
+          window.location.href = "/login";
+        } else {
+          alert(data);
+        }
+      });
+  };
+
   return (
     <section className="register">
       <h1 className="register_title">register</h1>
@@ -34,7 +56,7 @@ const Register = () => {
             ...inputData,
             email: e.target.value,
           });
-          console.log(inputData);
+          // console.log(inputData);
         }}
       />
 
@@ -48,7 +70,7 @@ const Register = () => {
             ...inputData,
             password: e.target.value,
           });
-          console.log(inputData);
+          // console.log(inputData);
         }}
       />
 
@@ -62,14 +84,20 @@ const Register = () => {
             ...inputData,
             password2: e.target.value,
           });
-          console.log(inputData);
+          // console.log(inputData);
         }}
       />
       {same === false ? (
         <small style={{ color: "red" }}>password harus sama</small>
       ) : null}
 
-      <button className="submit" disabled={!same}>
+      <button
+        className="submit"
+        disabled={!same}
+        onClick={() => {
+          handleRegister();
+        }}
+      >
         signup
       </button>
       <small>

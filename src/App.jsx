@@ -1,0 +1,31 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Page_login from "./components/pages/page_login/Page_login";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Page_register from "./components/pages/page_register/Page_register";
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/home">Coming Soon..</Route>
+
+          <Route path="/register">
+            <Page_register />
+          </Route>
+
+          <Route path="/login">
+            <Page_login />
+          </Route>
+
+          <Route path="/">
+            <Page_login />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  );
+}
+
+export default App;

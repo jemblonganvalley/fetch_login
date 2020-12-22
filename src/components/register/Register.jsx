@@ -34,13 +34,25 @@ const Register = () => {
     })
       .then((res) => res.json())
       .then((data) => {
+        //validasi
         if (data.accessToken) {
+          alert("registrasi berhasil..");
           window.location.href = "/login";
         } else {
           alert(data);
         }
       });
   };
+
+  useEffect(() => {
+    //tampung nilai session storage bernama isLogin
+    const isLogin = sessionStorage.getItem("isLogin");
+
+    //apabila nilai isLogin TRUE maka kembalikan dia ke page HOME
+    if (isLogin) {
+      window.location.href = "/home";
+    }
+  }, []);
 
   return (
     <section className="register">
@@ -53,8 +65,8 @@ const Register = () => {
         id="email"
         onChange={(e) => {
           setInputData({
-            ...inputData,
-            email: e.target.value,
+            ...inputData, //copy semua property yang ada
+            email: e.target.value, //edit property yang di inginkan
           });
           // console.log(inputData);
         }}

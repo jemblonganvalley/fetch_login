@@ -56,6 +56,21 @@
       "email": "yusuf@gmail.com",
       "password": "$2a$10$EVLujwxiXLuo7wAkirirGOjR79kf9bxyOK4NtCz2zDJx9sb06/5oe",
       "id": 11
+    },
+    {
+      "email": "nova@gmail.com",
+      "password": "$2a$10$fQ1qfJ/vJJH.LJX9p7Ekn.H7onDninrTNXmF4GrgrXK6gRr1HtGCG",
+      "id": 12
+    },
+    {
+      "email": "asep@gmail.com",
+      "password": "$2a$10$IrrtBhuh/mGqfOFt6LxBbukszFlvsgIxpHl5yz5kr6i3luJLXN7fW",
+      "id": 13
+    },
+    {
+      "email": "fatih098@yahoo.com",
+      "password": "$2a$10$kUMY.mA8dthWzfBbba.v0.IGP15ZKCHTaclsuhQacRxPfCNup/nWW",
+      "id": 14
     }
   ]
 }

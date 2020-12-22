@@ -34,6 +34,7 @@ const Login = () => {
           //kita tambahkan data user yang sedang login
           sessionStorage.setItem("user", inputData.email);
 
+          //lempar ke /home
           window.location.href = "/home";
         } else {
           alert("silakan check data login anda..");

@@ -1,3 +1,4 @@
+import Navbar from "../../navbar/Navbar";
 import "./Home.css";
 
 const Home = () => {
@@ -5,9 +6,12 @@ const Home = () => {
 
   if (isLogin) {
     return (
-      <main className="home">
-        <h1>Wellcome Home..</h1>
-      </main>
+      <>
+        <Navbar />
+        <main className="home">
+          <h1>Wellcome Home..</h1>
+        </main>
+      </>
     );
   } else {
     window.location.href = "/";

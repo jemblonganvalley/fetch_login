@@ -31,6 +31,9 @@ const Login = () => {
           //kita set session storage bernama isLogin
           sessionStorage.setItem("isLogin", true);
 
+          //kita tambahkan data user yang sedang login
+          sessionStorage.setItem("user", inputData.email);
+
           window.location.href = "/home";
         } else {
           alert("silakan check data login anda..");

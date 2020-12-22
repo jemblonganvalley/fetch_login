@@ -9,23 +9,35 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
+        {sessionStorage.getItem("isLogin") ? (
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
 
-          <Route path="/register">
-            <Page_register />
-          </Route>
+            <Route path="/">
+              <Home />
+            </Route>
 
-          <Route path="/login">
-            <Page_login />
-          </Route>
+            <Route>
+              <Home />
+            </Route>
+          </Switch>
+        ) : (
+          <Switch>
+            <Route path="/register">
+              <Page_register />
+            </Route>
 
-          <Route path="/">
-            <Page_login />
-          </Route>
-        </Switch>
+            <Route path="/login">
+              <Page_login />
+            </Route>
+
+            <Route path="/">
+              <Page_login />
+            </Route>
+          </Switch>
+        )}
       </Router>
     </div>
   );

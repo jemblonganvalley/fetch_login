@@ -1,0 +1,17 @@
+.note_container {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  padding: 40px 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.note {
+  flex: 1;
+  border: 0.3px solid rgb(228, 228, 228);
+  padding: 20px;
+}

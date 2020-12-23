@@ -1,4 +1,5 @@
 import Navbar from "../../navbar/Navbar";
+import Note from "../note/Note";
 import "./Home.css";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar />
         <main className="home">
           <h1>Wellcome Home..</h1>
+          <Note />
         </main>
       </>
     );

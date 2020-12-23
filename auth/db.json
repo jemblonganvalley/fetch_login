@@ -76,23 +76,31 @@
       "email": "agilmunzir@gmail.com",
       "password": "$2a$10$GK4A2yE34kxSYqwsHtigxeyDDLOWn/RlhU/JKPc461MIf7LO0ARq6",
       "id": 15
+    },
+    {
+      "email": "loli@gmail.com",
+      "password": "$2a$10$mgDpwTB02mvGdda72tMmouDVJTMaCGS3aZTjcjkW7Wgi100d1fyfK",
+      "id": 16
     }
   ],
   "notes": [
     {
       "id": 1,
-      "user_email": "fadliselaz@gmail.com",
-      "notes": "ini adalah note punya fadliselaz@gmail.com"
+      "note_user": "fadliselaz@gmail.com",
+      "note_title": "ini adalah judul note",
+      "note_body": "ini adalah note punya fadliselaz@gmail.com"
     },
     {
       "id": 2,
-      "user_email": "evalia@gmail.com",
-      "notes": "ini adalah note punya evalia@gmail.com"
+      "note_user": "evalia@gmail.com",
+      "note_title": "ini adalah judul note",
+      "note_body": "ini adalah note punya evalia@gmail.com"
     },
     {
       "id": 3,
-      "user_email": "fadliselaz@gmail.com",
-      "notes": "ini adalah note punya fadliselaz@gmail.com lainnya"
+      "note_user": "fadliselaz@gmail.com",
+      "note_title": "ini adalah judul note",
+      "note_body": "ini adalah note punya fadliselaz@gmail.com lainnya"
     }
   ]
 }

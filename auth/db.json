@@ -71,6 +71,28 @@
       "email": "fatih098@yahoo.com",
       "password": "$2a$10$kUMY.mA8dthWzfBbba.v0.IGP15ZKCHTaclsuhQacRxPfCNup/nWW",
       "id": 14
+    },
+    {
+      "email": "agilmunzir@gmail.com",
+      "password": "$2a$10$GK4A2yE34kxSYqwsHtigxeyDDLOWn/RlhU/JKPc461MIf7LO0ARq6",
+      "id": 15
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "user_email": "fadliselaz@gmail.com",
+      "notes": "ini adalah note punya fadliselaz@gmail.com"
+    },
+    {
+      "id": 2,
+      "user_email": "evalia@gmail.com",
+      "notes": "ini adalah note punya evalia@gmail.com"
+    },
+    {
+      "id": 3,
+      "user_email": "fadliselaz@gmail.com",
+      "notes": "ini adalah note punya fadliselaz@gmail.com lainnya"
     }
   ]
 }

@@ -7,6 +7,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     sessionStorage.removeItem("isLogin");
+    sessionStorage.removeItem("user");
     window.location.href = "/login";
   };
 
@@ -15,7 +16,7 @@ const Navbar = () => {
       {show && (
         <div className="modal_menu">
           <button className="btn_logout" onClick={handleLogout}>
-            <i className="fa fa-close"></i>
+            <i className="fa fa-sign-out-alt"></i>
             logout
           </button>
         </div>

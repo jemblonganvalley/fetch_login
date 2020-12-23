@@ -14,7 +14,7 @@ const Login = () => {
 
   //buat sebuah hanldeLogin dan fetch ke api login
   const handleLogin = () => {
-    fetch("http://localhost:5000/login", {
+    fetch("https://jvalleylogin.herokuapp.com/api/login", {
       method: "POST",
       mode: "cors",
       headers: {

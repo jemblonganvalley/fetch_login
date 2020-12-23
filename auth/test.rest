@@ -1,5 +1,5 @@
 ###
-POST http://localhost:5000/register
+POST https://jvalleylogin.herokuapp.com/register
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/login
+POST https://jvalleylogin.herokuapp.com/login
 Content-Type: application/json
 
 {

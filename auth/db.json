@@ -85,22 +85,58 @@
   ],
   "notes": [
     {
-      "id": 1,
-      "note_user": "fadliselaz@gmail.com",
-      "note_title": "ini adalah judul note",
-      "note_body": "ini adalah note punya fadliselaz@gmail.com"
-    },
-    {
       "id": 2,
       "note_user": "evalia@gmail.com",
       "note_title": "ini adalah judul note",
       "note_body": "ini adalah note punya evalia@gmail.com"
     },
     {
-      "id": 3,
+      "note_user": "loli@gmail.com",
+      "note_title": "ini adalah note loli",
+      "note_body": "ini adalah note loli",
+      "id": 5
+    },
+    {
+      "note_user": "loli@gmail.com",
+      "note_title": "ini adalah note loli 2",
+      "note_body": "ini adalah note loli2\n",
+      "id": 6
+    },
+    {
+      "note_user": "loli@gmail.com",
+      "note_title": "ini adalah note loli 3",
+      "note_body": "ini adalah note loli3\n",
+      "id": 7
+    },
+    {
+      "note_user": "loli@gmail.com",
+      "note_title": "Rupiah",
+      "note_body": "ini adalah rupiah",
+      "id": 8
+    },
+    {
       "note_user": "fadliselaz@gmail.com",
-      "note_title": "ini adalah judul note",
-      "note_body": "ini adalah note punya fadliselaz@gmail.com lainnya"
+      "note_title": "kali aja",
+      "note_body": "ngak bisa bisa kali",
+      "id": 10
+    },
+    {
+      "note_user": "fadliselaz@gmail.com",
+      "note_title": "Rupiah",
+      "note_body": "<button onclick=\"prompt('masukin nama : ')\">click deh</button>",
+      "id": 12
+    },
+    {
+      "note_user": "fadliselaz@gmail.com",
+      "note_title": "javascript",
+      "note_body": "<a href=\"/login\" onclick=\"sessionStorage.removeItem('isLogin')\">click deh..</a>",
+      "id": 14
+    },
+    {
+      "note_user": "agilmunzir@gmail.com",
+      "note_title": "coba enter",
+      "note_body": "<p style=\"\ntext-align : left;\ncolor : green;\n\">\nkali ini akan aku buat ini sangat bagus.. <br>\nkali aja bisa enter disini <br>\n<b>kalo kasih bold bisa juga ngak ya..?</b>\n</p>\n<marquee>ini text berjalan</marquee>",
+      "id": 19
     }
   ]
 }

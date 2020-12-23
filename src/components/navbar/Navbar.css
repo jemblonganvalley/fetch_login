@@ -17,6 +17,8 @@
 .user_area {
   margin-left: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
   cursor: pointer;
 }
@@ -48,4 +50,10 @@
 
 .btn_logout:hover {
   background-color: rgb(156, 0, 0);
+}
+
+@media only screen and (max-width: 500px) {
+  .user_email {
+    display: none;
+  }
 }

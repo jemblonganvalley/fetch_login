@@ -32,7 +32,7 @@ const Navbar = () => {
           }}
         >
           <i className="fa fa-user-friends"></i>
-          {user}
+          <p className="user_email">{user}</p>
         </div>
       </nav>
     </>

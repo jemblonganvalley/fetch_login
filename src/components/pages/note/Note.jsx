@@ -45,7 +45,6 @@ const Note = () => {
 
   return (
     <>
-      <NoteForm />
       <div className="note_container">
         {notes.map((e, i) => (
           <div className="note" key={i}>

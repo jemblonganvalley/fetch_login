@@ -12,11 +12,16 @@
 
 .note {
   width: calc(90% / 3);
-  height: 200px;
+  height: auto;
   border: 0.3px solid rgb(228, 228, 228);
   padding: 20px;
   border-radius: 8px;
   position: relative;
+}
+
+.note_body,
+.note_title {
+  text-align: left;
 }
 
 .form_group input {
@@ -38,4 +43,15 @@
 .form_edit {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 500px) {
+  .note {
+    width: 100%;
+    height: auto;
+    border: 0.3px solid rgb(228, 228, 228);
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+  }
 }

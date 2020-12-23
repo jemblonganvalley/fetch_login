@@ -1,13 +1,57 @@
 .login {
-  width: 40vw;
-  height: 400px;
+  width: 30%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 18px;
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  border-radius: 8px;
   border: 0.2px solid rgb(221, 221, 221);
+  padding: 20px;
+}
+
+.login .login_title {
+  text-align: center;
+  width: 100%;
+}
+
+.login input {
+  width: 100%;
+  height: 40px;
+  padding: 0 8px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.login button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: white;
+}
+
+.login label {
+  text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+  .login {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 0.2px solid rgb(221, 221, 221);
+  }
 }

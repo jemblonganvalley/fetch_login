@@ -3,20 +3,21 @@
   height: auto;
   /* min-height: 100vh; */
   padding: 40px 8%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* align-items: flex-start; */
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  gap: 8px 8px;
 }
 
 .note {
-  width: calc(90% / 3);
-  height: auto;
+  width: 100%;
+  overflow-y: scroll;
   border: 0.3px solid rgb(228, 228, 228);
   padding: 20px;
   border-radius: 8px;
   position: relative;
+  background-color: white;
 }
 
 .note_body,
@@ -46,6 +47,16 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .note_container {
+    width: 100vw;
+    height: auto;
+    /* min-height: 100vh; */
+    padding: 40px 8%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 8px 8px;
+  }
   .note {
     width: 100%;
     height: auto;

@@ -58,14 +58,17 @@ const Note = () => {
             >
               <i
                 className="fa fa-trash"
-                style={{ color: "red" }}
+                style={{
+                  color: "red",
+                  fontWeight: "100",
+                }}
                 onClick={() => {
                   deleteNote(e.id);
                 }}
               ></i>
               <i
                 className="fa fa-edit"
-                style={{ color: "green", marginLeft: "5px" }}
+                style={{ color: "green", marginLeft: "5px", fontWeight: "100" }}
                 onClick={() => {
                   if (idNote.id === null) {
                     setIdNote({ id: e.id });

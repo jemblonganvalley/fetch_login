@@ -21,7 +21,7 @@ const Register = () => {
   }, [inputData]);
 
   const handleRegister = () => {
-    fetch("https:jvalleylogin.herokuapp.com/api/register", {
+    fetch("https://jvalleylogin.herokuapp.com/api/register", {
       method: "POST",
       mode: "cors",
       headers: {

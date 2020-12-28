@@ -76,6 +76,16 @@
       "email": "agilmunzir@gmail.com",
       "password": "$2a$10$GK4A2yE34kxSYqwsHtigxeyDDLOWn/RlhU/JKPc461MIf7LO0ARq6",
       "id": 15
+    },
+    {
+      "email": "ajang@gmail.com",
+      "password": "$2a$10$aMVLfMQDca9imKGHcGYnd.4aJfqYKDtJ56xcOaSiJIxUcw7EyqkKu",
+      "id": 16
+    },
+    {
+      "email": "asyifa@gmail.com",
+      "password": "$2a$10$HuZYvxjtnXNSOGzoorApuephQtUJsgTHA8a9c75J4Rf61/ZAc1JCq",
+      "id": 17
     }
   ],
   "notes": [

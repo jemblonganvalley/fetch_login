@@ -2,12 +2,18 @@ import { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  //tangkap user dari data session storage
   const user = sessionStorage.getItem("user");
+  //togle button logout
   const [show, setShow] = useState(false);
 
+  //logout
   const handleLogout = () => {
+    //hapus isLogin dari session storage
     sessionStorage.removeItem("isLogin");
+    //hapus user dari session storage
     sessionStorage.removeItem("user");
+    //lempar user kembali ke login
     window.location.href = "/login";
   };
 

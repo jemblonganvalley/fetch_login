@@ -1,0 +1,43 @@
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "email" : "asep@gmail.com",
+    "password" : "1234rewq"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "selva@gmail.com",
+    "password" : "1234rewq"
+}
+
+#get all data from notes
+###
+GET http://localhost:5000/notes
+Content-Type: application/json
+
+#get data by user_email
+###
+GET http://localhost:5000/notes?user_email=fadliselaz@gmail.com
+Content-Type: application/json
+
+#get data by id
+###
+GET http://localhost:5000/notes?id=3
+Content-Type: application/json
+
+#search data
+###
+GET http://localhost:5000/notes?q=kotor
+Content-Type: application/json
+
+#search data by user_email
+###
+GET http://localhost:5000/notes?q=kotor&user_email=fadliselaz@gmail.com
+Content-Type: application/json
+

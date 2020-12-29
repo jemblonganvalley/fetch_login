@@ -1,4 +1,8 @@
-.home {
+/* multiple selection */
+
+.home,
+.about,
+.info {
   width: 100vw;
   height: auto;
   min-height: 100vh;

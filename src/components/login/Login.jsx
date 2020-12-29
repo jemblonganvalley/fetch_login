@@ -24,6 +24,7 @@ const Login = () => {
     })
       .then((res) => res.json())
       .then((data) => {
+        //ketika login berhasil
         if (data.accessToken) {
           //kondisi ketika login berhasil
           alert("selamat datang bro..");

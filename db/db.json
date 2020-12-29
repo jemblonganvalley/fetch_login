@@ -86,23 +86,44 @@
       "email": "asyifa@gmail.com",
       "password": "$2a$10$HuZYvxjtnXNSOGzoorApuephQtUJsgTHA8a9c75J4Rf61/ZAc1JCq",
       "id": 17
+    },
+    {
+      "email": "asu@gmail.com",
+      "password": "$2a$10$sLSGnTIGOvK8sdHxt1k9FuLMBWTdR5BMAQaDUtGuunLVGJPMfyBRG",
+      "id": 18
+    },
+    {
+      "email": "kambing@gmail.com",
+      "password": "$2a$10$JQsYxC.Bh19zLdfPSiVazuqTByoaSfSoCRcCqenQsWai8fKQ14Plq",
+      "id": 19
     }
   ],
+
   "notes": [
     {
       "id": 1,
       "user_email": "fadliselaz@gmail.com",
-      "notes": "ini adalah note punya fadliselaz@gmail.com"
+      "note": "ini adalah note pertama saya.. kotor"
     },
     {
       "id": 2,
       "user_email": "evalia@gmail.com",
-      "notes": "ini adalah note punya evalia@gmail.com"
+      "note": "ini adalah note pertama saya.. burung"
     },
     {
       "id": 3,
-      "user_email": "fadliselaz@gmail.com",
-      "notes": "ini adalah note punya fadliselaz@gmail.com lainnya"
+      "user_email": "selva@gmail.com",
+      "note": "ini adalah note pertama saya.. kotor burung"
+    },
+    {
+      "id": 4,
+      "user_email": "alif@gmail.com",
+      "note": "ini adalah note pertama saya.. kampret"
+    },
+    {
+      "id": 5,
+      "user_email": "alif@gmail.com",
+      "note": "ini adalah note pertama saya.. gundul"
     }
   ]
 }

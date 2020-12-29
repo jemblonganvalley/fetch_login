@@ -13,7 +13,9 @@ const Login = () => {
   // dan store data menggunakan state setInputData()
 
   //buat sebuah hanldeLogin dan fetch ke api login
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    //menjadikan page tidak reload ke page lain...
+    e.preventDefault();
     fetch("http://localhost:5000/login", {
       method: "POST",
       mode: "cors",
@@ -54,7 +56,7 @@ const Login = () => {
   }, []);
 
   return (
-    <section className="login">
+    <form className="login" onSubmit={handleLogin}>
       <h1 className="login_title">Login</h1>
 
       <label htmlFor="email">email</label>
@@ -83,18 +85,13 @@ const Login = () => {
         }}
       />
 
-      <button
-        className="submit"
-        onClick={() => {
-          handleLogin();
-        }}
-      >
+      <button className="submit" type="submit">
         sign-in
       </button>
       <small>
         Not Have account, <Link to="/register">Register Here..</Link>
       </small>
-    </section>
+    </form>
   );
 };
 

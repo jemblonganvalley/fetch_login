@@ -1,13 +1,13 @@
 /* multiple selection */
 
-.home,
-.about,
-.info {
+.home {
   width: 100vw;
   height: auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   background-color: whitesmoke;
+  padding: 40px 8%;
 }

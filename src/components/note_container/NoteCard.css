@@ -1,0 +1,10 @@
+.note_card {
+  width: calc(90% / 3);
+  height: 250px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 8px;
+  overflow-y: scroll;
+  text-align: left;
+}

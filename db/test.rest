@@ -33,11 +33,11 @@ Content-Type: application/json
 
 #search data
 ###
-GET http://localhost:5000/notes?q=kotor
+GET http://localhost:5000/notes?q=saya
 Content-Type: application/json
 
 #search data by user_email
 ###
-GET http://localhost:5000/notes?q=kotor&user_email=fadliselaz@gmail.com
+GET http://localhost:5000/notes?q=saya&user_email=fadliselaz@gmail.com
 Content-Type: application/json
 

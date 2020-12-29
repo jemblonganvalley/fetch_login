@@ -103,27 +103,38 @@
     {
       "id": 1,
       "user_email": "fadliselaz@gmail.com",
-      "note": "ini adalah note pertama saya.. kotor"
+      "title": "ini semua title",
+      "body": "ini adalah note pertama saya.. kotor"
     },
     {
       "id": 2,
       "user_email": "evalia@gmail.com",
-      "note": "ini adalah note pertama saya.. burung"
+      "title": "ini semua title",
+      "body": "ini adalah note pertama saya.. burung"
     },
     {
       "id": 3,
       "user_email": "selva@gmail.com",
-      "note": "ini adalah note pertama saya.. kotor burung"
+      "title": "ini semua title",
+      "body": "ini adalah note pertama saya.. kotor burung"
     },
     {
       "id": 4,
       "user_email": "alif@gmail.com",
-      "note": "ini adalah note pertama saya.. kampret"
+      "title": "ini semua title",
+      "body": "ini adalah note pertama saya.. kampret"
     },
     {
       "id": 5,
       "user_email": "alif@gmail.com",
-      "note": "ini adalah note pertama saya.. gundul"
+      "title": "ini semua title",
+      "body": "ini adalah note pertama saya.. gundul"
+    },
+    {
+      "id": 6,
+      "user_email": "fadliselaz@gmail.com",
+      "title": "ini semua title",
+      "body": "ini adalah note kedua saya.. kotor"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import Navbar from "../../navbar/Navbar";
 import "./Home.css";
+import NoteContainer from "../../note_container/NoteContainer";
 
 const Home = () => {
   const isLogin = sessionStorage.getItem("isLogin");
@@ -10,14 +11,8 @@ const Home = () => {
         <Navbar />
         <main className="home">
           <h1>Wellcome Home..</h1>
-        </main>
 
-        <main className="about">
-          <h1>hello about</h1>
-        </main>
-
-        <main className="info">
-          <h1>hello info</h1>
+          <NoteContainer />
         </main>
       </>
     );

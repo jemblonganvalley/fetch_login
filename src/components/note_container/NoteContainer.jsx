@@ -17,12 +17,8 @@ const NoteContainer = () => {
   });
 
   //kita buat sebuah function untuk menambah data ke DB
-  const handleDataStore = () => {
-    // alert(`
-    //   user_email : ${addNote.user_email}
-    //   title : ${addNote.title}
-    //   body : ${addNote.body}
-    // `);
+  const handleDataStore = (e) => {
+    e.preventDefault();
 
     fetch("http://localhost:5000/notes", {
       method: "POST",
@@ -32,6 +28,8 @@ const NoteContainer = () => {
       },
       body: JSON.stringify(addNote),
     });
+
+    window.location.href = "/home";
   };
 
   useEffect(() => {

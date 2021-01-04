@@ -96,16 +96,14 @@
       "email": "kambing@gmail.com",
       "password": "$2a$10$JQsYxC.Bh19zLdfPSiVazuqTByoaSfSoCRcCqenQsWai8fKQ14Plq",
       "id": 19
+    },
+    {
+      "email": "ayam@gmail.com",
+      "password": "$2a$10$wLJ1bzriE7VqYcGjRdkoO.6FPVoxcuGoa00GA2.uEtXvZ9EPRkui6",
+      "id": 20
     }
   ],
-
   "notes": [
-    {
-      "id": 1,
-      "user_email": "fadliselaz@gmail.com",
-      "title": "ini semua title",
-      "body": "ini adalah note pertama saya.. kotor"
-    },
     {
       "id": 2,
       "user_email": "evalia@gmail.com",
@@ -131,10 +129,10 @@
       "body": "ini adalah note pertama saya.. gundul"
     },
     {
-      "id": 6,
-      "user_email": "fadliselaz@gmail.com",
-      "title": "ini semua title",
-      "body": "ini adalah note kedua saya.. kotor"
+      "user_email": "ayam@gmail.com",
+      "title": "saya ayam",
+      "body": "ini ayam ayaman",
+      "id": 11
     }
   ]
 }

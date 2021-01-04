@@ -19,14 +19,14 @@ const Navbar = () => {
 
   return (
     <>
-      {show && (
+      {show ? (
         <div className="modal_menu">
           <button className="btn_logout" onClick={handleLogout}>
             <i className="fa fa-sign-out-alt"></i>
             logout
           </button>
         </div>
-      )}
+      ) : null}
 
       <nav className="navbar">
         <h3 className="brand">jvalley</h3>

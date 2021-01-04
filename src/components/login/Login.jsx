@@ -15,7 +15,9 @@ const Login = () => {
   //buat sebuah hanldeLogin dan fetch ke api login
   const handleLogin = (e) => {
     //menjadikan page tidak reload ke page lain...
+    //ketika form di submit
     e.preventDefault();
+
     fetch("http://localhost:5000/login", {
       method: "POST",
       mode: "cors",

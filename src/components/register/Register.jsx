@@ -20,7 +20,10 @@ const Register = () => {
     }
   }, [inputData]);
 
-  const handleRegister = () => {
+  const handleRegister = (e) => {
+    //kita buat form tidak melempar ke page lain
+    e.preventDefault();
+
     fetch("http://localhost:5000/register", {
       method: "POST",
       mode: "cors",
@@ -55,7 +58,7 @@ const Register = () => {
   }, []);
 
   return (
-    <section className="register">
+    <form className="register" onSubmit={handleRegister}>
       <h1 className="register_title">register</h1>
 
       <label htmlFor="email">email</label>
@@ -103,19 +106,13 @@ const Register = () => {
         <small style={{ color: "red" }}>password harus sama</small>
       ) : null}
 
-      <button
-        className="submit"
-        disabled={!same}
-        onClick={() => {
-          handleRegister();
-        }}
-      >
+      <button className="submit" disabled={!same} type="submit">
         signup
       </button>
       <small>
         Already Have Account, <Link to="/login">Login Here..</Link>
       </small>
-    </section>
+    </form>
   );
 };
 

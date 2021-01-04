@@ -7,3 +7,62 @@
   padding: 40px 8%;
   justify-content: center;
 }
+
+.form_modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.add_note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  gap: 10px;
+}
+
+.add_note input {
+  width: 100%;
+  height: 30px;
+  padding: 0 8px;
+}
+
+.add_note button {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: white;
+}
+
+.add_note button:hover {
+  background-color: orangered;
+}
+
+.add_note textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.add_icon {
+  position: fixed;
+  bottom: 20px;
+  right: 8%;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  z-index: 150;
+}

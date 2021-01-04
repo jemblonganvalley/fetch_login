@@ -137,26 +137,14 @@
     {
       "user_email": "fadliselaz@gmail.com",
       "title": "Rupiah",
-      "body": "sdfsadf",
+      "body": "hello",
       "id": 12
     },
     {
       "user_email": "fadliselaz@gmail.com",
-      "title": "Rupiah",
-      "body": "asdfasdf",
+      "title": "belajar react basic jvalley",
+      "body": "kali ini kita akan buat sebuah project react sederhana",
       "id": 13
-    },
-    {
-      "user_email": "fadliselaz@gmail.com",
-      "title": "asdfasdf",
-      "body": "asdfasdfasdf",
-      "id": 14
-    },
-    {
-      "user_email": "fadliselaz@gmail.com",
-      "title": "Rupiah",
-      "body": "asdfsadf",
-      "id": 15
     }
   ]
 }

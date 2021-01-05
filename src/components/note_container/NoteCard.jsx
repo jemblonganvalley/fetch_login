@@ -93,7 +93,10 @@ const NoteCard = ({ id, title, body }) => {
       ) : (
         <>
           <h3 className="note_title">{title}</h3>
-          <p className="note_body">{body}</p>
+          <p
+            className="note_body"
+            dangerouslySetInnerHTML={{ __html: body }}
+          ></p>
         </>
       )}
     </div>

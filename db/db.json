@@ -137,13 +137,13 @@
     {
       "user_email": "fadliselaz@gmail.com",
       "title": "Rupiah",
-      "body": "hello",
+      "body": "<h1 style=\"color : red;\">Hello world</h1>\n\n<marquee width=\"60%\" direction=\"up\" height=\"100px\">\nThis is a sample scrolling text that has scrolls in the upper direction.\n</marquee>",
       "id": 12
     },
     {
       "user_email": "fadliselaz@gmail.com",
       "title": "belajar react basic jvalley",
-      "body": "kali ini kita akan buat sebuah project react sederhana",
+      "body": "<img src=\"https://picsum.photos/seed/150/200\" />",
       "id": 13
     }
   ]
